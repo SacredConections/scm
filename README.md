@@ -3,7 +3,7 @@ Sacred Ministry Info
 
 ⭐PLEASE READ BELOW FOR INSTRUCTIONS⭐
 
-👉🏽 Watch Site Live While Working: https://geoffstengel.github.io/scm/ 
+👉🏽 Watch Site Live While Working: https://sacredconections.github.io/scm/
 
 💡 Steps On How To Get Around Folders
 
@@ -34,4 +34,4 @@ Sacred Ministry Info
 💻 DNS Point Godaddy Domain to Github Pages Tutorial: https://youtu.be/dbgEWWBvIxY
 🛎️ 👬🏽 Domain Important - at Section 5 You'll Need These Numbers in Godaddy Manage DNS: https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site#configuring-an-apex-domain 🛎️
 
-💻 To Watch The Site Being Built 👉🏽 https://geoffstengel.github.io/scm/
+💻 To Watch The Site Being Built 👉🏽 https://sacredconections.github.io/scm/
