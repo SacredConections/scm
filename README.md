@@ -1,5 +1,5 @@
 # scm
-Sacred Ministry Info
+Sacred Connections Ministry Info
 
 ⭐PLEASE READ BELOW FOR INSTRUCTIONS⭐
 
