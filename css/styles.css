@@ -4,6 +4,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root {
+    --light-green: #27a305;
+    --dark-green: #176301;
+    --purple: #8a01d3;
+
+    }
+
 html {
     font-size: 10px;
     font-family: 'Montserrat', sans-serif;
@@ -43,9 +50,9 @@ p {
 .cta {
     display: inline-block;
     padding: 10px 30px;
-    color: crimson;
+    color: var(--light-green);
     background-color: transparent;
-    border: 2px solid crimson;
+    border: 2px solid var(--light-green);
     font-size: 2rem;
     text-transform: uppercase;
     letter-spacing: 0.1rem;
@@ -56,7 +63,7 @@ p {
 }
 .cta:hover {
     color: white;
-    background-color: crimson;
+    background-color: var(--light-green);
 }
 .brand {
     font-size: 1.8rem;
@@ -133,7 +140,7 @@ p {
     letter-spacing: initial;
 }
 #header .nav-bar ul li:hover a {
-    color: crimson;
+    color: var(--light-green);
 }
 #header .hamburger {
     height: 60px;
@@ -237,7 +244,7 @@ p {
     left: 0%;
     height: 100%;
     width: 0;
-    background-color: crimson;
+    background-color: var(--light-green);
     animation: text-reveal-box 1s ease;
     animation-delay: 0.5s;
 }
@@ -433,7 +440,7 @@ p {
     left: -25px;
     height: 98%;
     width: 98%;
-    border: 7px solid crimson;
+    border: 7px solid var(--light-green);
     z-index: -1;
 }
 #about-me .col-left .about-img::before {
@@ -562,7 +569,7 @@ p {
 }
 @keyframes text-reveal-name {
     100%{
-        color: crimson;
+        color: var(--light-green);
     }
 }
 /*End Key Frames*/
