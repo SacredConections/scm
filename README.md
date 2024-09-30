@@ -3,6 +3,6 @@ Sacred Ministry Info
 
 ⭐PLEASE READ BELOW FOR INSTRUCTIONS⭐
 
-👉🏽 Watch Site Live While Working:  "It changes sometimes am renting a single server so i switch projects if u notice that"
+👉🏽 Watch Site Live While Working: https://geoffstengel.github.io/scm/ 
 
 💡 Steps On How To Get Around Folders
