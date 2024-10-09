@@ -604,26 +604,26 @@ p {
     }
     /*End services section*/
 
-    /*projects section*/
-    #projects .projects-item {
+    /*philosophy section*/
+    #philosophy .philosophy-item {
        height: 400px;
        width: 100%;
        border-radius: 0;
        margin: 0;
        flex-direction: row;
     }
-    #projects .projects-item:nth-child(even) {
+    #philosophy .philosophy-item:nth-child(even) {
         flex-direction: row-reverse
     }
-    #projects .project-img {
+    #philosophy .philosophy-img {
         height: 100%;
         flex-basis: 50%;
     }
-    #projects .project-info {
+    #philosophy .philosophy-info {
         height: 100%;
         flex-basis: 50%;
     }
-    /*End projects section*/
+    /*End philosophy section*/
 
     /*about me section*/
     #about-me .about-me {
