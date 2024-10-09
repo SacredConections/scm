@@ -327,23 +327,23 @@ p {
 }
 /*End services section*/
 
-/*projects section*/
-#projects .projects {
+/*philosophy section*/
+#philosophy .philosophy {
     flex-direction: column;
     max-width: 1200px;
     margin: 0 auto;
     padding: 100px 0;
 }
-#projects .projects-header h1 {
+#philosophy .philosophy-header h1 {
     margin-bottom: 50px;
 }
-#projects .all-projects {
+#philosophy .all-philosophy {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-#projects .projects-item {
+#philosophy .philosophy-item {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -353,7 +353,7 @@ p {
     overflow: hidden;
     border-radius: 2rem;
 }
-#projects .project-info {
+#philosophy .philosophy-info {
     padding: 30px;
     height: 100%;
     display: flex;
@@ -364,25 +364,25 @@ p {
     color: white;
     background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
 }
-#projects .project-info h1 {
+#philosophy .philosophy-info h1 {
     font-size: 4rem;
     font-weight: 500;
 }
-#projects .project-info h2 {
+#philosophy .philosophy-info h2 {
     font-size: 1.8rem;
     font-weight: 600;
     margin-top: 10px;
 }
-.project-img {
+.philosophy-img {
     height: 300px;
     overflow: hidden;
     position: relative;
 }
-.project-img img {
+.philosophy-img img {
     width: 100%;
     transition: transform 0.3s ease-in-out;
 }
-.project-img::after {
+.philosophy-img::after {
     content: '';
     position: absolute;
     top: 0;
@@ -392,10 +392,10 @@ p {
     background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
     opacity: 0.7;
 }
-#projects .project-img:hover img {
+#philosophy .philosophy-img:hover img {
     transform: scale(1.2)
 }
-/*End projects section*/
+/*End philosophy section*/
 
 /*about me*/
 #about-me .about-me {
