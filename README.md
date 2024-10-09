@@ -3,7 +3,7 @@ Sacred Connections Ministry Info
 
 ⭐PLEASE READ BELOW FOR INSTRUCTIONS⭐
 
-👉🏽 Watch Site Live While Working: https://sacredconections.github.io/scm/
+👉🏽 Watch Site Live While Working: https://sacredconnectionsministry.com
 
 💡 Steps On How To Get Around Folders
 
