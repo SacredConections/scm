@@ -202,7 +202,7 @@ p {
 
 /*hero section*/
 #hero {
-    background-image: images/hero.jpg;
+    background-image: img(images/hero.jpg;)
     background-size: cover;
     background-position: center;
     position: relative;
@@ -290,7 +290,7 @@ p {
     align-items: flex-start;
     padding: 30px;
     border-radius: 2rem;
-    background-image: (images/pink shasta.jpg);
+    background-image: img(images/pink shasta.jpg);
     background-size: cover;
     margin: 10px 5%;
     position: relative;
