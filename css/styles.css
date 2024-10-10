@@ -202,7 +202,7 @@ p {
 
 /*hero section*/
 #hero {
-    background-image: url(https://raw.githubusercontent.com/WebCifar/one-page-website-html-css-project-for-practice/master/img/hero-bg.png);
+    background-image: images\hero.jpg;
     background-size: cover;
     background-position: center;
     position: relative;
