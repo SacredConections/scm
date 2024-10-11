@@ -290,7 +290,7 @@ p {
     align-items: flex-start;
     padding: 30px;
     border-radius: 2rem;
-    background-image: url("pink shasta.jpg");
+    background-image: url("../images/pink shasta.jpg");
     background-size: cover;
     margin: 10px 5%;
     position: relative;
