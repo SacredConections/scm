@@ -397,23 +397,26 @@ p {
 /*End projects section*/
 
 /*About-Us*/
-#about-us .about-us {
-    flex-direction: column-center;
+ flex-direction: column; {
     align-items: center;
     justify-content: center;
     text-align: center;
     padding: 100px 0;
+ }
+#about-me .about-me {
+    flex-direction: column;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 10px;
 }
-#about-us .about-us-top {
-    max-width: 500px;
-    margin: 0 auto;     
+#about-me .col-left {
+    width: 250px;
+    height: 350px;
 }
-#about-us .about-us-bottom {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-top: 50px;
+#about-me .col-left img {
+    width: 10%;
+    height: 10%;
 }
 #about-us.col-right {
     width: 100%;
