@@ -398,7 +398,7 @@ p {
 
 /*About-Us*/
 #about-us .about-us {
-    flex-direction: column;
+    flex-direction: column-center;
     align-items: center;
     justify-content: center;
     text-align: center;
