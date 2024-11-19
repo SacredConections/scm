@@ -396,47 +396,47 @@ p {
 }
 /*End projects section*/
 
-/*Membership*/
-#membership .membership {
+/*About-Us*/
+#about-us .about-us {
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
     padding: 100px 0;
 }
-#membership .membership-top {
+#about-us .about-us-top {
     max-width: 500px;
     margin: 0 auto;     
 }
-#membership .membership-bottom {
+#about-us .about-us-bottom {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     margin-top: 50px;
 }
-#membership .col-right {
+#about-us.col-right {
     width: 100%;
 }
-#membership .col-right h2 {
+#about-us .col-right h2 {
     font-size: 1.8rem;
     font-weight: 600;
     letter-spacing: 0.2rem;
     margin-bottom: 10px;
 }
-#membership .col-right p {
+#about-us .col-right p {
     margin-bottom: 20px;
 }
-#membership .col-right .cta {
+#about-us .col-right .cta {
     margin-bottom: 50px;
 }
-#membership .col-left .membership-img {
+#about-us .col-left .about-img {
     position: relative;
     border: 10px solid white;
     height: 100%;
     width: 100%;
 }
-#membership .col-left .membership-img::after {
+#about-us .col-left .about-img::after {
     position: absolute;
     content: '';
     top: 25px;
@@ -446,7 +446,7 @@ p {
     border: 7px solid var(--light-green);
     z-index: -1;
 }
-#membership .col-left .membership-img::before {
+#about-us .col-left .about-img::before {
     position: absolute;
     content: '';
     top: -25px;
@@ -456,7 +456,7 @@ p {
     border: 7px solid #000;
     z-index: -1;
 }
-/*End membership*/
+/*End about-us*/
 
 /*contact section*/
 #contact .contact {
