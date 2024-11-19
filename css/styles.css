@@ -396,44 +396,47 @@ p {
 }
 /*End projects section*/
 
-/*about me*/
-#about-me .about-me {
+/*Membership*/
+#membership .membership {
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     text-align: center;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 100px 10px;
+    padding: 100px 0;
 }
-#about-me .col-left {
-    width: 250px;
-    height: 350px;
+#membership .membership-top {
+    max-width: 500px;
+    margin: 0 auto;     
 }
-#about-me .col-left img {
-    width: 10%;
-    height: 10%;
+#membership .membership-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
 }
-#about-me .col-right {
+#membership .col-right {
     width: 100%;
 }
-#about-me .col-right h2 {
+#membership .col-right h2 {
     font-size: 1.8rem;
     font-weight: 600;
     letter-spacing: 0.2rem;
     margin-bottom: 10px;
 }
-#about-me .col-right p {
+#membership .col-right p {
     margin-bottom: 20px;
 }
-#about-me .col-right .cta {
+#membership .col-right .cta {
     margin-bottom: 50px;
 }
-#about-me .col-left .about-img {
+#membership .col-left .membership-img {
     position: relative;
     border: 10px solid white;
     height: 100%;
     width: 100%;
 }
-#about-me .col-left .about-img::after {
+#membership .col-left .membership-img::after {
     position: absolute;
     content: '';
     top: 25px;
@@ -443,7 +446,7 @@ p {
     border: 7px solid var(--light-green);
     z-index: -1;
 }
-#about-me .col-left .about-img::before {
+#membership .col-left .membership-img::before {
     position: absolute;
     content: '';
     top: -25px;
@@ -453,7 +456,7 @@ p {
     border: 7px solid #000;
     z-index: -1;
 }
-/*End about me*/
+/*End membership*/
 
 /*contact section*/
 #contact .contact {
