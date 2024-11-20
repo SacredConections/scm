@@ -397,14 +397,8 @@ p {
 /*End projects section*/
 
 /*About-Us*/
- flex-direction: column; 
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 100px 0;
- 
 #about-me .about-me {
-    flex-direction: column;
+    flex-direction: column-reverse;
     text-align: center;
     max-width: 1200px;
     margin: 0 auto;
@@ -415,8 +409,8 @@ p {
     height: 350px;
 }
 #about-me .col-left img {
-    width: 10%;
-    height: 10%;
+    width: 100%;
+    height: 100%;
 }
 #about-us.col-right {
     width: 100%;
