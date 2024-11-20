@@ -397,7 +397,6 @@ p {
 /*End projects section*/
 
 /*About-Us*/
-/*About-Us*/
 #about-us .about-us {
     display: flex;
     flex-direction: row;
@@ -421,45 +420,36 @@ p {
     align-items: center;
     text-align: center; /* Ensure text is centered */
 }
+#about-us .col-right h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
 #about-us .col-right h2 {
-    font-size: 1.8rem;
+    font-size: 2rem;
     font-weight: 600;
-    letter-spacing: 0.2rem;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 #about-us .col-right p {
     margin-bottom: 20px;
+    font-size: 1.5rem;
+    line-height: 2rem;
 }
-#about-us .col-right .cta {
-    margin-bottom: 50px;
+.pillars {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
-#about-us .col-left .about-img {
-    position: relative;
-    border: 10px solid white;
-    height: 100%;
-    width: 100%;
+.pillar h3 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 10px;
 }
-#about-us .col-left .about-img::after {
-    position: absolute;
-    content: '';
-    top: 25px;
-    left: -25px;
-    height: 98%;
-    width: 98%;
-    border: 7px solid var(--light-green);
-    z-index: -1;
+.pillar p {
+    font-size: 1.5rem;
+    line-height: 2rem;
 }
-#about-us .col-left .about-img::before {
-    position: absolute;
-    content: '';
-    top: -25px;
-    left: 25px;
-    height: 98%;
-    width: 98%;
-    border: 7px solid #000;
-    z-index: -1;
-}
-/*End about-us*/
+/*End About-Us*/
 
 /*contact section*/
 #contact .contact {
