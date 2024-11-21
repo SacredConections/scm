@@ -395,7 +395,7 @@ p {
     transform: scale(1.2)
 }
 #philosophy {
-    padding-bottom: 50px; /* Adjust padding to reduce space */
+    padding-bottom: 25px; /* Adjust padding to reduce space */
 }
 /*End projects section*/
 
@@ -410,7 +410,7 @@ p {
     text-align: center;
 }
 #Membership {
-    padding-top: 50px; /* Adjust padding to reduce space */
+    padding-top: 25px; /* Adjust padding to reduce space */
 }
 #Membership .col-right {
     width: 100%;
