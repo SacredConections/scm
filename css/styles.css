@@ -450,14 +450,14 @@ p {
     line-height: 2rem;
 }
 .declaration {
-    font-size: 1.8rem; /* Increase font size for declaration */
+    font-size: 1.5rem; /* Increase font size for declaration */
     line-height: 2.4rem; /* Adjust line height for spacing */
-    text-align: left; /* Align text to the left for readability */
+    text-align: center; /* Align text to center for readability */
     list-style-type: none;
     padding: 0;
 }
 .declaration li {
-    margin-bottom: 10px; /* Add space between list items */
+    margin-bottom: 11px; /* Add space between list items */
 }
 
 /*contact section*/
