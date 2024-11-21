@@ -397,40 +397,40 @@ p {
 /*End projects section*/
 
 /*About-Us*/
-#about-us .about-us {
+#Membership .Membership {
     display: flex;
     flex-direction: row;
     max-width: 1200px;
     margin: 0 auto;
     padding: 100px 10px;
+    text-align: center; /* Ensure text is centered */
 }
-#about-us .col-left {
+#Membership .col-left {
     width: 250px;
     height: 350px;
 }
-#about-us .col-left img {
+#Membership .col-left img {
     width: 100%;
     height: 100%;
 }
-#about-us .col-right {
+#Membership .col-right {
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center; /* Ensure text is centered */
 }
-#about-us .col-right h1 {
+#Membership .col-right h1 {
     font-size: 2.5rem;
     font-weight: 700;
     margin-bottom: 20px;
 }
-#about-us .col-right h2 {
+#Membership .col-right h2 {
     font-size: 2rem;
     font-weight: 600;
     margin-bottom: 15px;
 }
-#about-us .col-right p {
+#Membership .col-right p {
     margin-bottom: 20px;
     font-size: 1.5rem;
     line-height: 2rem;
@@ -449,7 +449,16 @@ p {
     font-size: 1.5rem;
     line-height: 2rem;
 }
-/*End About-Us*/
+.declaration {
+    font-size: 1.8rem; /* Increase font size for declaration */
+    line-height: 2.4rem; /* Adjust line height for spacing */
+    text-align: left; /* Align text to the left for readability */
+    list-style-type: none;
+    padding: 0;
+}
+.declaration li {
+    margin-bottom: 10px; /* Add space between list items */
+}
 
 /*contact section*/
 #contact .contact {
