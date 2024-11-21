@@ -394,6 +394,9 @@ p {
 #philosophy .project-img:hover img {
     transform: scale(1.2)
 }
+#philosophy {
+    padding-bottom: 50px; /* Adjust padding to reduce space */
+}
 /*End projects section*/
 
 /*Membership section*/
@@ -403,8 +406,11 @@ p {
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 100px 10px;
+    padding: 50px 10px;
     text-align: center;
+}
+#Membership {
+    padding-top: 50px; /* Adjust padding to reduce space */
 }
 #Membership .col-right {
     width: 100%;
