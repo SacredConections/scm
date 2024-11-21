@@ -396,15 +396,16 @@ p {
 }
 /*End projects section*/
 
-/*About-Us*/
+/*Membership section*/
 #Membership .Membership {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     max-width: 1200px;
     margin: 0 auto;
     padding: 100px 10px;
-    text-align: center; /* Ensure text is centered */
-
+    text-align: center;
+}
 #Membership .col-right {
     width: 100%;
     display: flex;
@@ -413,9 +414,9 @@ p {
     align-items: center;
 }
 #Membership .col-right h1 {
-    font-size: 4rem;
-    font-weight: 500;
-    margin-bottom: 20px;
+    font-size: 4rem; /* Match the font size of the Philosophy h1 */
+    font-weight: 500; /* Match the font weight of the Philosophy h1 */
+    margin-bottom: 50px; /* Match the margin-bottom of the Philosophy h1 */
 }
 #Membership .col-right h2 {
     font-size: 2rem;
@@ -442,14 +443,14 @@ p {
     line-height: 2rem;
 }
 .declaration {
-    font-size: 1.5rem; /* Increase font size for declaration */
+    font-size: 1.8rem; /* Increase font size for declaration */
     line-height: 2.4rem; /* Adjust line height for spacing */
-    text-align: center; /* Align text to center for readability */
+    text-align: left; /* Align text to the left for readability */
     list-style-type: none;
     padding: 0;
 }
 .declaration li {
-    margin-bottom: 11px; /* Add space between list items */
+    margin-bottom: 10px; /* Add space between list items */
 }
 
 /*contact section*/
