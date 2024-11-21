@@ -445,7 +445,7 @@ p {
 .declaration {
     font-size: 1.8rem; /* Increase font size for declaration */
     line-height: 2.4rem; /* Adjust line height for spacing */
-    text-align: left; /* Align text to the left for readability */
+    text-align: center; /* Align text to the center for readability */
     list-style-type: none;
     padding: 0;
 }
