@@ -463,6 +463,13 @@ p {
 .declaration li {
     margin-bottom: 10px; /* Add space between list items */
 }
+.requirements & privileges li {
+    font-size: 1.8rem; /* Increase font size for declaration */
+    line-height: 2.4rem; /* Adjust line height for spacing */
+    text-align: center; /* Align text to the center for readability */
+    list-style-type: none;
+    padding: 0;
+}
 
 /*contact section*/
 #contact .contact {
